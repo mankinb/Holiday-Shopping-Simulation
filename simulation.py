@@ -1,6 +1,6 @@
-from array204 import Array
-from Queue import Node, Queue
-from PriorityQ import PNode, PriorityQueue
+from ArrayADT import Array
+from BasicQueue import Node, Queue
+from PriorityQueue import PNode, PriorityQueue
 import random
 
 class Event:  
