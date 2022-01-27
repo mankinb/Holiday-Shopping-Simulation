@@ -8,38 +8,36 @@ A statistical summary of the simulation is displayed, regardless of the status o
 
 Example run outputs:
 
-Sample run outputs are as follows:
+<p>num_cashiers = 2<p/>
+<p>total_sim_time = 1000<p/>
+<p>interarrival_time = 2<p/>
+<p>service_time = 5<p/>
+<p>giftwrap_time = 2<p/>
+<p>num_wrappers = 1<p/>
+<p>percent_wrap_service = 50<p/>
 
-num_cashiers = 2
-total_sim_time = 1000
-interarrival_time = 2
-service_time = 5
-giftwrap_time = 2
-num_wrappers = 1
-percent_wrap_service = 50
+=========Simulation Statistics=========<p/>
+<p>Number of customers: 674<p/>
+<p>Number of customers served: 660<p/>
+<p>Average wait time: 1.5151515151515151<p/>
+<p>Number of customers remaining in line: 14<p/>
+<p>Number of customers remaining in the wrapping queue: 69<p/>
+<p>Average gift-wrapping wait time: 78.2<p/>
 
-=========Simulation Statistics=========
-Number of customers: 674
-Number of customers served: 660
-Average wait time: 1.5151515151515151
-Number of customers remaining in line: 14
-Number of customers remaining in the wrapping queue: 69
-Average gift-wrapping wait time: 78.2
+________________________________________________________<p/>
 
-________________________________________________________
+<p>num_cashiers = 5<p/>
+<p>total_sim_time = 3000<p/>
+<p>interarrival_time = 2<p/>
+<p>service_time = 14<p/>
+<p>giftwrap_time = 2<p/>
+<p>num_wrappers = 2<p/>
+<p>percent_wrap_service = 50<p/>
 
-num_cashiers = 5
-total_sim_time = 3000
-interarrival_time = 2
-service_time = 14
-giftwrap_time = 2
-num_wrappers = 2
-percent_wrap_service = 50
-
-=========Simulation Statistics=========
-Number of customers: 2004
-Number of customers served: 1827
-Average wait time: 1.6420361247947455
-Number of customers remaining in line: 177
-Number of customers remaining in the wrapping queue: 177
-Average gift-wrapping wait time: 85.61538461538461
+=========Simulation Statistics=========<p/>
+<p>Number of customers: 2004<p/>
+<p>Number of customers served: 1827<p/>
+<p>Average wait time: 1.6420361247947455<p/>
+<p>Number of customers remaining in line: 177<p/>
+<p>Number of customers remaining in the wrapping queue: 177<p/>
+<p>Average gift-wrapping wait time: 85.61538461538461<p/>
