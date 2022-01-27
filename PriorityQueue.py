@@ -12,7 +12,7 @@ class PNode(Node):
     self.priority = precedence
 
 
-class PriorityQueue(BasicQueue):
+class PriorityQueue(Queue):
 
     def __init__( self, minPriority = 15 ):
         """Initialize the queue with a default number of priority classes."""
