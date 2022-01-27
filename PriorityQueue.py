@@ -3,8 +3,8 @@ This class implements a linked priority queue with a head.
 Priorities are positive integers where the highest priority is zero. This queue is a linked list. The base class Queue has been implemented as linked list.
 """
 
-from Queue import Queue
-from Queue import Node
+from BasicQueue import Queue
+from BasicQueue import Node
 
 class PNode(Node):
   def __init__(self, data, precedence):
@@ -12,19 +12,19 @@ class PNode(Node):
     self.priority = precedence
 
 
-class PriorityQueue( Queue ):
+class PriorityQueue(BasicQueue):
 
     def __init__( self, minPriority = 15 ):
         """Initialize the queue with a default number of priority classes."""
         super().__init__()
 
-    def __str__( self ):
+    def __str__(self):
         """
         Returns the name of the queue
         """
         return "PriorityQueue"
 
-    def enqueue( self, priority, item ):
+    def enqueue(self, priority, item):
         """
         Inserts an item with priority at the right place.
         """
@@ -58,9 +58,6 @@ class PriorityQueue( Queue ):
           self.length += 1
 
 
-    #def dequeue( self ):
+    #def dequeue(self):
         """Remove the item with most preferred priority."""
         #super().dequeue()
-
-
-"""This class should implement nodes for a singly linked list with a priority."""
