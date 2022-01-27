@@ -4,7 +4,7 @@ class Node:
     self.next = None
 
 class Queue:
-    """Queue ADT implemented as a linked list (options for bounded and unbounded)."""
+    """Queue ADT implemented as a linked list."""
 
     def __init__( self, bound = None ):
         """ Queue starts out empty. If bound == None, the queue
