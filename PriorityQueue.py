@@ -8,15 +8,19 @@ from BasicQueue import Node
 
 class PNode(Node):
   def __init__(self, data, precedence):
-    super().__init__(data)
+    self.data = data
+    self.next = None
     self.priority = precedence
 
 
 class PriorityQueue(Queue):
 
-    def __init__( self, minPriority = 15 ):
+    def __init__(self, minPriority = 15, bound = None):
         """Initialize the queue with a default number of priority classes."""
-        super().__init__()
+        self.head = None
+        self.tail = None
+        self.length = 0
+        self.capacity = bound
 
     def __str__(self):
         """
